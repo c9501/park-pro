@@ -4,8 +4,8 @@ import { getToken } from './cookie'
 import type { Data } from '@/types/request'
 
 const service = axios.create({
-  baseURL: 'https://api-hmzs.itheima.net/v1',
-  timeout: 5000
+  baseURL: 'https://api-hmzs.itheima.net/v1'
+  // timeout: 5000
 })
 
 // 请求拦截器
